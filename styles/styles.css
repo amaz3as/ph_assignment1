@@ -56,6 +56,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 #header button:hover{
+  color: white;
   background-color: darkgreen;
 }
 
