@@ -57,12 +57,13 @@ text-align: left;
 }
 #header button:hover{
   color: white;
-  background-color: darkgreen;
+  background-color: rgb(64, 117, 93);
 }
 
 .hero{
   margin-left: 160px;
   margin-right: 160px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
@@ -140,4 +141,144 @@ text-align: left;
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+#hero_div1 button:hover{
+  color: white;
+  background-color: rgb(0, 90, 70);
+}
+
+#vision{
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  gap: 24;
+}
+#vision h2{
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#vision p{
+/* position: static;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start; */
+/* gap: 12; */
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+
+#vision_cards{
+  margin-left: 160px;
+  margin-right: 160px;
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+}
+
+.v_div{
+  width: 500px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+
+  box-sizing: border-box;
+  border-radius: 16px;
+
+}
+
+.v_div button{
+
+position: static;
+width: 122px;
+height: 41px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 8px;
+border: 0px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.v_div p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.v_div h3{
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#vCardB1{
+  align-items: flex-end;
+  background-color: rgb(84, 144, 245);
+}
+#vCardB2{
+  align-items: flex-end;
+  background-color: rgb(9, 161, 92);
+}
+#vCardB3{
+  align-items: flex-end;
+  background-color: rgb(255, 194, 57);
+}
+
+#d1{
+  background: rgba(84, 144, 245, 0.2);
+}
+#d2{
+  background: rgb(198, 228, 214);
+}
+#d3{
+  background: rgb(247, 235, 207);
 }
